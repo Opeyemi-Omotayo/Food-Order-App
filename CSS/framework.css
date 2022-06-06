@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.nospace {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+.overlay::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+}
+.bgded {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.circle {
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 25px 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid;
+}
+
+.clear,
+.group {
+  display: block;
+}
+.clear::before,
+.clear::after,
+.group::before,
+.group::after {
+  display: table;
+  content: "";
+}
+.clear,
+.clear::after,
+.group,
+.group::after {
+  clear: both;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.fl_left {
+  float: left;
+}
+.fl_right {
+  float: right;
+}
+
+img {
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Fonts
+--------------------------------------------------------------------------------------------------------------- */
+body,
+input {
+  font-family: Verdana, Geneva, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 20px 0;
+  font-size: 1.4rem;
+  line-height: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.heading.nospace {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.hoc {
+  display: block;
+  margin: 0 auto;
+}
+
+article,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.one_third{
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 4.21052%;
+  list-style: none;
+  width: 30.52631%;
+}
+
