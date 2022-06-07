@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <title>Log in</title>
+  </head>
+  <body class="formBackground">
+    <div class="modal">
+      <button class="close-modal">&times;</button>
+      <form action="" class="formContainer">
+        <h6 class="modalText">
+          <label>Username</label>
+          <input class="login" type="text" placeholder="Enter your username" />
+        </h6>
+        <h6 class="modalText">
+          <label>Password</label>
+          <input
+            class="login"
+            type="password"
+            placeholder="Enter your password"
+          />
+        </h6>
+        <button class="btn centerBtn">Log in</button>
+
+        <div>
+          <p class="centerP">
+            <a href="#">Forgot Password?</a>
+          </p>
+          <p class="centerP">
+            <a class="create" href="#">Create an account</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="overlayy hiddenn"></div>
+
+    <div class="reg hide">
+      <button class="close-modal">&times;</button>
+      <form action="" class="formContainer">
+        <h6 class="modalText">Create an account</h6>
+        <h6 class="modalText">
+          <label>First Name</label>
+          <input class="login" type="text" />
+        </h6>
+        <h6 class="modalText">
+          <label>Last Name</label>
+          <input class="login" type="text" />
+        </h6>
+
+        <h6 class="modalText">
+          <label>Email Address</label>
+          <input class="login" type="email" />
+        </h6>
+        <h6 class="modalText">
+          <label>Phone Number</label>
+          <input class="login" type="number" />
+        </h6>
+        <h6 class="modalText">
+          <label>Gender</label>
+          <select style="height:35px ; width:55%;" name="gender" id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="none">Prefer not to say</option>
+          </select>
+        </h6>
+        <h6 class="modalText">
+          <label>Set Password</label>
+          <input class="login" type="password" />
+        </h6>
+        <button class="btn centerBtn">Create account</button>
+      </form>
+    </div>
+    <div class="shadow-overlayy hide"></div>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
