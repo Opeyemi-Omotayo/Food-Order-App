@@ -34,12 +34,42 @@
   font-size: 1.4rem;
   color: #aaa;
   text-align: center;
+  padding: 10px;
 }
 
 .footer__copyright .footer__link {
   font-size: 1.4rem;
 }
 
+.footerP {
+  color: white;
+}
+
+.footerForm-spacing {
+  margin-bottom: 15px;
+  width: 90%; height: 33px;
+}
+
+.form-div {
+  width: 21.8421%;
+}
+
+.footerBtn {
+  background-color: white;
+  border-color: white;
+  color: #f36506;
+  width: 79%;
+  height: 33px;
+  border-radius: 6px;
+  transform: translate(8%, 5%);
+}
+
+.footerBtn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/*headerrr     */
 #header #logo {
   margin: 22px 0 0 0;
 }
@@ -240,7 +270,7 @@ nav ul {
 --------------------------------------------------------------------------------------------------------------- */
 body {
   color: #a8a8a8;
-  background-color: #202020;
+  background-color: #f36506;
 }
 a {
   color: #f36506;
@@ -370,7 +400,8 @@ a:focus {
 .formContainer {
   transform: translate(15%, 5%);
 }
-.modal, .reg {
+.modal,
+.reg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -394,7 +425,8 @@ a:focus {
   background: none;
 }
 
-.overlayy, .shadow-overlay {
+.overlayy,
+.shadow-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -405,7 +437,8 @@ a:focus {
   z-index: 5;
 }
 
-.hiddenn, .hide {
+.hiddenn,
+.hide {
   display: none;
 }
 
@@ -422,6 +455,6 @@ a:focus {
   margin-left: 65px;
 }
 
-.modalText{
+.modalText {
   color: black;
 }
