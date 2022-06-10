@@ -118,6 +118,7 @@ h6,
   line-height: normal;
   font-weight: normal;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .heading.nospace {
@@ -157,5 +158,11 @@ section {
   margin: 0 0 0 4.21052%;
   list-style: none;
   width: 30.52631%;
+
+}
+
+img{
+  width: 65px;
+  height: 65px;
 }
 

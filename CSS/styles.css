@@ -140,6 +140,8 @@
 #latest article .excerpt {
   padding: 30px;
   border-bottom: 2px solid;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
 }
 #latest article .excerpt .heading {
   margin: 0 0 8px 0;
@@ -457,4 +459,20 @@ a:focus {
 
 .modalText {
   color: black;
+}
+
+.border-top{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.border-bottom{
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.input-h{
+  width: 85%;
+  margin: 0 0 0 8.21052%;
+  height: 45px;
 }
