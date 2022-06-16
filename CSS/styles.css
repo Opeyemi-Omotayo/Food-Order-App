@@ -272,7 +272,7 @@ nav ul {
 --------------------------------------------------------------------------------------------------------------- */
 body {
   color: #a8a8a8;
-  background-color: #f36506;
+  background-color:#f36506 ;
 }
 a {
   color: #f36506;
@@ -373,24 +373,6 @@ a:focus {
   border-color: #d7d7d7;
 }
 
-/* Media Queries
---------------------------------------------------------------------------------------------------------------- */
-@-ms-viewport {
-  width: device-width;
-}
-
-@media screen and (min-width: 1140px) {
-  .hoc {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (min-width: 978px) and (max-width: 1140px) {
-  .hoc {
-    max-width: 95%;
-  }
-}
-
 /* login page*/
 .login {
   padding: 8px;
@@ -476,3 +458,62 @@ a:focus {
   margin: 0 0 0 8.21052%;
   height: 45px;
 }
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+
+/* Media Queries------------------------ */
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (min-width: 1140px) {
+  .hoc {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 978px) and (max-width: 1140px) {
+  .hoc {
+    max-width: 95%;
+  }
+}
+/* mobile devices */
+@media screen and (max-width:978px){
+	.hoc{max-width:90%;}
+
+	#header{padding:30px;}
+	#header #logo{margin-top:0;}
+
+	#mainav ul{display:none;}
+
+	
+}
+
+@media screen and (max-width:750px){
+	.fl_left, .fl_right{display:block; float:none;}
+	 .one_third{display:block; float:none; width:auto; margin:0 0 30px 0;}
+	.last, .group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
+
+	#header{text-align:center;}
+	#header #logo{margin:0 0 15px 0;}
+
+	#pageintro article{max-width:none;}
+	#pageintro .heading{margin-bottom:20px; font-size:2.5rem;}
+
+	.sectiontitle{max-width:none;}
+	.grid-3{margin:0 auto; max-width:348px;}/* Restrict the width to the one_third grid element in smaller devices */
+	.grid-3 > li:nth-last-child(-n+3){margin-bottom:50px;}
+	.grid-3 > li:last-child{margin-bottom:0;}
+
+	#latest > li{margin:0 auto 50px;}
+  .form-div{display:block; float:none; width:100%; }
+
+
+}
+
+
+
