@@ -26,6 +26,8 @@
 // btnCloseModal.addEventListener("click", closeModal);
 // overlay.addEventListener("click", closeModal);
 
+
+
 var slideIndex = 0;
 showSlides();
 
@@ -34,7 +36,7 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlide");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-  }
+  }  
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
@@ -43,3 +45,19 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 
+/*--------sticky header---------- */
+// window.onscroll = function() {stickyHeader()};
+
+// const header = document.getElementById("headerr");
+// const sticky = header.offsetTop;
+
+// console.log(sticky);
+
+// const stickyHeader = () =>{
+//   if(window.pageXOffset > sticky){
+//     header.style.position = "sticky";
+//   } 
+//   console.log(window.pageXOffset)
+// }
+
+/*https://www.chicken-republic.com/wp-content/plugins/wp-carousel-pro/public/css/bx_loader.gif */

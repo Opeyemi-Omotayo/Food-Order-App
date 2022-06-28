@@ -10,7 +10,7 @@
 .footerr {
   padding: 10rem 3rem;
   background-color: #f36506;
-  height: 300px;
+  height: 500px;
 }
 
 .footer__nav {
@@ -47,7 +47,8 @@
 
 .footerForm-spacing {
   margin-bottom: 15px;
-  width: 90%; height: 33px;
+  width: 90%;
+  height: 33px;
 }
 
 .form-div {
@@ -70,6 +71,10 @@
 }
 
 /*headerrr     */
+.hheaderr{
+  position: fixed;
+  background-color: white;
+}
 #header #logo {
   margin: 22px 0 0 0;
 }
@@ -147,6 +152,7 @@
   margin: 0 0 8px 0;
 }
 
+
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
 nav ul {
@@ -203,7 +209,7 @@ nav ul {
   display: block;
   padding: 30px 15px;
   border: solid;
-  border-width: 3px 0 0 0;
+  border-width:  3px 0 0 0;
 }
 #mainav li li a {
   border-width: 0 0 1px 0;
@@ -267,12 +273,14 @@ nav ul {
   padding: 0;
   border: none;
 }
+ 
+
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body {
   color: #a8a8a8;
-  background-color:#f36506 ;
+  background-color: #ffffff;
 }
 a {
   color: #f36506;
@@ -308,7 +316,22 @@ a:focus {
   background-color: transparent;
   border-color: inherit;
 }
+.coloured {
+  color: black;
+  background-color: #f36506;
+}
+.coloured .btn,
+.coloured .btn.inverse:hover {
+  color: #ffffff;
+  background-color: #f36506;
+  border-color: #f36506;
+}
 
+.coloured .btn:hover {
+  background-color: #ffffff;
+  border-color: #f36506;
+  color: #f36506;
+}
 /* Rows */
 .row1 {
   color: #474747;
@@ -345,7 +368,7 @@ a:focus {
 }
 /* Navigation */
 #mainav li a {
-  color: inherit;
+  color: black;
   border-color: transparent;
 }
 #mainav .active a,
@@ -443,17 +466,17 @@ a:focus {
   color: black;
 }
 
-.border-top{
+.border-top {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
 
-.border-bottom{
+.border-bottom {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 
-.input-h{
+.input-h {
   width: 85%;
   margin: 0 0 0 8.21052%;
   height: 45px;
@@ -464,7 +487,32 @@ a:focus {
   transform: translateY(8rem);
 }
 
+.space {
+  background-color: #dddbdb;
+  height: 10px;
+}
 
+.addButton{
+  text-align: right;
+}
+.orderBtn{
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #f36506;
+  color: #f36506;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.08rem 0.40rem;
+}
+
+.listProducts{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
 /* Media Queries------------------------ */
 @-ms-viewport {
   width: device-width;
@@ -482,38 +530,80 @@ a:focus {
   }
 }
 /* mobile devices */
-@media screen and (max-width:978px){
-	.hoc{max-width:90%;}
+@media screen and (max-width: 978px) {
+  .hoc {
+    max-width: 90%;
+  }
 
-	#header{padding:30px;}
-	#header #logo{margin-top:0;}
+  #header {
+    padding: 30px;
+  }
+  #header #logo {
+    margin-top: 0;
+  }
 
-	#mainav ul{display:none;}
-
-	
+  #mainav ul {
+    display: none;
+  }
 }
 
-@media screen and (max-width:750px){
-	.fl_left, .fl_right{display:block; float:none;}
-	 .one_third{display:block; float:none; width:auto; margin:0 0 30px 0;}
-	.last, .group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
+@media screen and (max-width: 750px) {
+  .fl_left,
+  .fl_right {
+    display: block;
+    float: none;
+  }
+  .one_third,
+  .three_quarter,
+  .one_quarter {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0 0 30px 0;
+  }
+  .last,
+  .group .group > *:last-child,
+  .clear .clear > *:last-child,
+  .clear .group > *:last-child,
+  .group .clear > *:last-child {
+    margin-bottom: 0;
+  }
 
-	#header{text-align:center;}
-	#header #logo{margin:0 0 15px 0;}
+  #header {
+    text-align: center;
+  }
+  #header #logo {
+    margin: 0 0 15px 0;
+  }
 
-	#pageintro article{max-width:none;}
-	#pageintro .heading{margin-bottom:20px; font-size:2.5rem;}
+  #pageintro article {
+    max-width: none;
+  }
+  #pageintro .heading {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
 
-	.sectiontitle{max-width:none;}
-	.grid-3{margin:0 auto; max-width:348px;}/* Restrict the width to the one_third grid element in smaller devices */
-	.grid-3 > li:nth-last-child(-n+3){margin-bottom:50px;}
-	.grid-3 > li:last-child{margin-bottom:0;}
+  .sectiontitle {
+    max-width: none;
+  }
+  .grid-3 {
+    margin: 0 auto;
+    max-width: 348px;
+  } /* Restrict the width to the one_third grid element in smaller devices */
+  .grid-3 > li:nth-last-child(-n + 3) {
+    margin-bottom: 50px;
+  }
+  .grid-3 > li:last-child {
+    margin-bottom: 0;
+  }
 
-	#latest > li{margin:0 auto 50px;}
-  .form-div{display:block; float:none; width:100%; }
-
-
+  #latest > li {
+    margin: 0 auto 50px;
+  }
+  .form-div {
+    display: block;
+    float: none;
+    width: 100%;
+  }
 }
-
-
-

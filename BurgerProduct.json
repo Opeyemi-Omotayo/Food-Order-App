@@ -1,0 +1,310 @@
+[
+    {
+        "id" : 1,
+        "image": "",
+        "name": "Whopper",
+        "description":" Our Whopper Sandwich is a ¼ lb* of savory flame-grilled beef topped with juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.        ",
+        "price": "₦2,500"
+    },
+    {
+        "id" : 2,
+        "image": "",
+        "name": "Double Whopper        ",
+        "description":" Our Double Whopper Sandwich is a pairing of two ¼ lb* savory flame-grilled beef patties topped with juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.        ",
+        "price": "₦3,500"
+    },
+    {
+        "id" : 3,
+        "image": "",
+        "name": "Big King XXL        ",
+        "description":" Fresh flame-grilled beef, the original BIG KING sauce, and two delicious cheddar cheese slices, fresh lettuce, sliced white onions and crunchy pickles. The BIG KING® XXL is a real ultimate hunger beater.        ",
+        "price": "₦4,000"
+    },
+    {
+        "id" : 4,
+        "image": "",
+        "name": "Steakhouse",
+        "description":" Warm & toasted corn-dusted bun crowns a variety ingredients such as mayonnaise, crispy onions, lettuce, tomato, BBQ sauce, veal bacon, Swiss cheese, Whopper®patty, and warm & toasted corn-dusted bun at the bottom.        ",
+        "price": "₦2,500"
+    },
+    {
+        "id" : 5,
+        "image": " ",
+        "name": "Double Steakhouse ",
+        "description":" The Double Steakhouse consists of juicy flame-grilled 100% beef pattie topped with bacon, cheese, onions, lettuce, mayo and a deep smoky BBQ sauce in a brioche bun. ",
+        "price": "₦4,000"
+    },
+    {
+        "id" : 6,
+        "image": "",
+        "name": " Whopper Junior",
+        "description":" Our Whopper Jr. Sandwich features one savory flame-grilled beef patty topped with juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun. ",
+        "price": "₦1,800"
+    },
+    {
+        "id" : 7,
+        "image": "",
+        "name": "Big King",
+        "description":" The BIG KING® is one of the biggest in our family. With two freshly flame-grilled 100% pure beef patties, cheese, onions, pickles, lettuce and the unique BIG KING™ sauce, it just tastes amazing. ",
+        "price": "₦2,200"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "Double Cheese Burger",
+        "description":" Classic ingredients flavored just right. You can’t go wrong with our Double Cheeseburger, a signature flame-grilled beef patty topped with a simple layer of melted cheese, pickles, and ketchup on a toasted sesame seed bun.        ",
+        "price": "₦1,700"
+    },
+    {
+        "id" : 9,
+        "image": "",
+        "name": "Hamburger",
+        "description":" Our Hamburger is a signature flame-grilled beef patty topped with a simple layer of crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame seed bun.        ",
+        "price": "₦1,200"
+    },
+    {
+        "id" : 10,
+        "image": " ",
+        "name": " Cheese Burger ",
+        "description":" Classic ingredients flavored just right. You can’t go wrong with our Cheeseburger, a signature flame-grilled beef patty topped with a simple layer of melted cheese, pickles and ketchup on a toasted sesame seed bun.        ",
+        "price": "₦1,200"
+    },
+    {
+        "id" : 11,
+        "image": "",
+        "name": "Crispy Chicken",
+        "description":" Crispy on the outside, soft on the inside. The crispy chicken has everything you would expect from an excellent chicken burger: the finest chicken in a seasoned crispy coating, garnished with crunchy lettuce and freshly sliced tomatoes.        ",
+        "price": "₦2,200"
+    },
+    {
+        "id" : 12,
+        "image": "",
+        "name": " Chicken Royal        ",
+        "description":" Tasty chicken wrapped in a special crisp coating, topped with iceberg lettuce, creamy mayo and crowned with a toasted sesame seed bun. ",
+        "price": "₦2,500"
+    },
+    {
+        "id" : 13,
+        "image": "",
+        "name": "Chicken Tendercrisp ",
+        "description":" The Chicken Tendercrisp is a yummy chicken delight topped with a tomato slice, freshly shredded lettuce and creamy mayo, then served on a fragrant sesame seed bun.        ",
+        "price": "₦3,200"
+    },
+    {
+        "id" : 14,
+        "image": "",
+        "name": "Chicken Burger ",
+        "description":" The chicken burger is a mighty tasty chicken patty on a toasted sesame bun, topped with fresh lettuce and creamy mayonnaise        ",
+        "price": "₦1,500"
+    },
+    {
+        "id" : 15,
+        "image": " ",
+        "name": " Hamburger Meal ",
+        "description":" Grab a quick meal now paired with fries and a drink. ",
+        "price": "₦2,500"
+    },
+    {
+        "id" : 16,
+        "image": "",
+        "name": "Chicken Burger Meal  ",
+        "description":" Grab a quick meal now paired with fries and a drink.        ",
+        "price": "₦3,000"
+    },
+    {
+        "id" : 17,
+        "image": "",
+        "name": " Cheese Burger Meal",
+        "description":" Grab a quick meal now paired with fries and a drink.        ",
+        "price": "₦2,500"
+    },
+    {
+        "id" : 18,
+        "image": "",
+        "name": "Whopper Meal",
+        "description":" Our Whopper Sandwich is a ¼ lb* of savory flame-grilled beef topped with juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun. Paired with fries and a drink        ",
+        "price": "₦3,800"
+    },
+    {
+        "id" : 19,
+        "image": "",
+        "name": "Double Whop meal",
+        "description":" The Double Whopper Meal is a pairing of our Double Whopper sandwich, fries and a drink. ",
+        "price": "₦4,900"
+    },
+    {
+        "id" : 20,
+        "image": " ",
+        "name": " Big King XXL Meal",
+        "description":" The BIG KING® XXL meal is a combo paired with the Big King XXL burger, fries and a drink ",
+        "price": "₦4,900"
+    },
+    {
+        "id" : 21,
+        "image": "",
+        "name": "Whop Junior Meal        ",
+        "description":" Our Whopper Jr. Sandwich is a smaller size of our signature Whopper. The Whopper Junior meal is deliciously paired with fries and a drink        ",
+        "price": "₦2,600"
+    },
+    {
+        "id" : 22,
+        "image": "",
+        "name": "Big King Meal",
+        "description":" The BIG KING® is one of the biggest in our family. The meal is paired with fries and a drink.        ",
+        "price": "₦3,500"
+    },
+    {
+        "id" : 23,
+        "image": "",
+        "name": "Double Cheese Burger Meal        ",
+        "description":" An easy meal, the Double cheeseburger features our Classic ingredients flavored just right. Grab a quick meal now paired with fries and a drink.        ",
+        "price": "₦3,000"
+    },
+    {
+        "id" : 24,
+        "image": "",
+        "name": "Steakhouse Meal",
+        "description":" The Steakhouse meal is a combo paired with the Steakhouse burger, fries and a drink. ",
+        "price": "₦4,000"
+    },
+    {
+        "id" : 25,
+        "image": " ",
+        "name": "Double Steakhouse Meal ",
+        "description":" The Double Steakhouse consists of juicy flame-grilled 100% beef pattie topped with bacon, cheese, onions, lettuce, mayo and a deep smoky BBQ sauce in a brioche bun with paired fries and a drink.        ",
+        "price": "₦4,800"
+    },
+    {
+        "id" : 26,
+        "image": "",
+        "name": "Chicken Royal Meal        ",
+        "description":" The Chicken Royale meal is a Tasty chicken meal paired with fries and a drink ",
+        "price": "₦3,600"
+    },
+    {
+        "id" : 27,
+        "image": "",
+        "name": "Chicken Tendercrisp Meal        ",
+        "description":" The Chicken Tendercrisp meal makes this burger a must try! Paired with Fries and a drink for a filling and satisfying experience.        ",
+        "price": "₦4,000"
+    },
+    {
+        "id" : 28,
+        "image": "",
+        "name": "Chicken Crispy Meal",
+        "description":" The crispy chicken meal is an excellent chicken burger treat paired with fries, and a drink        ",
+        "price": "₦3,200"
+    },
+    {
+        "id" : 29,
+        "image": "",
+        "name": "Kids Meal Cheese Burger",
+        "description":" Our Cheeseburger King Jr™ Meal is a signature flame-grilled beef patty topped with a simple layer of melted cheese and ketchup on a toasted sesame seed bun with paired fries and a drink.        ",
+        "price": "₦2,300"
+    },
+    {
+        "id" : 30,
+        "image": " ",
+        "name": " ",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 31,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 32,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 33,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 34,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 39,
+        "image": " ",
+        "name": " ",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 40,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 39,
+        "image": " ",
+        "name": " ",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 40,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    },
+    {
+        "id" : 8,
+        "image": "",
+        "name": "",
+        "description":"  ",
+        "price": "₦1,000"
+    }
+]

@@ -96,7 +96,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 /* Fonts
@@ -123,6 +122,9 @@ h6,
 
 .heading.nospace {
   margin-bottom: 0;
+}
+.pad{
+  padding-left: 40px;
 }
 
 .wrapper {
@@ -152,17 +154,20 @@ section {
   padding: 0;
 }
 
-.one_third{
+.one_third,
+.three_quarter {
   display: inline-block;
   float: left;
   margin: 0 0 0 4.21052%;
   list-style: none;
   width: 30.52631%;
-
+}
+.three_quarter {
+  padding-bottom: 8px;
+  width: 73.94736%;
 }
 
-img{
+img {
   width: 65px;
   height: 65px;
 }
-
