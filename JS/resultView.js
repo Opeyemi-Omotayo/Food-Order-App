@@ -13,7 +13,7 @@
             <p style="color: grey;">
               ${product.description}
             </p></div>
-            </article>
+            </article>  
             <div class="fl_right" style="width: 10%; text-align:center; margin-top:55px;">
             <p style="display: inline-block;">${product.price}</p>
               <button class= "orderBtn" style="display: inline-block;">+</button>

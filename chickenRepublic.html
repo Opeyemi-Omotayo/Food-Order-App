@@ -177,17 +177,56 @@
         class="fl_right"
         style="
           width: 25%;
-          border: 5px solid #f4f4f4;
+          border: 2px solid #f4f4f4;
+          box-shadow: 0 0 3px 1px rgba(138, 137, 137, 0.5);
           height: 39rem;
-          padding: 18 px;
-          padding-top: 10px;
-          margin-top: 30px;
+          padding: 18px;
+          margin-top: 5px;
+          margin-right: 15px;
+          overflow: hidden;
+          overflow-y: scroll;
         "
       >
-        <p><small>ORDER FROM</small></p>
-        <p><strong>Chicken Republic - Lagos</strong></p>
-        <p><small>ESTIMATED DELIVERY TIME</small></p>
-        <p><strong>20-30 minutes</strong></p>
+        <h7 ><small>ORDER FROM</small></h7>
+        <h1
+          style="
+            margin-left: 15px;
+            padding-top: 3px;
+            color: white;
+            width: 90%;
+            height: 25px;
+            background-color: #fd7011;
+            font-size: medium;
+            transform: scale(1.07, 1.05) skewX(-16deg);
+          "
+        >
+          Chicken Republic - Lagos
+        </h1>
+
+        <h7><small>ESTIMATED DELIVERY TIME : </small></h7>
+        <h7><strong>20-30 mins</strong></h7>
+        <div style="padding: 70px;" id="cartView">
+          <img src="images/grocery-cart-icon-7485.png" alt="">
+          <p>Your cart is empty.</p>
+          </div>
+          <div>
+          <ul style="list-style: none;">
+            <li class="listProducts">
+              <article class="fl_left" style="width: 20%;">
+              <img src= 'images/ice-cream.png' style="width: 45px;">
+              <p><strong>${product.name}</strong></p>
+              </article>  
+              <div class="fl_right" style="width: 15%; text-align:center; margin-top:55px;">
+              <p >${product.price}</p>
+                <button onClick={onRemove} style="display: inline-block;">−</button>
+                <button onClick={onAdd} style="display: inline-block ;">+</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <footer  style="text-align: center; ">
+          <button class="btn">Proceed To Checkout</button>
+        </footer>
       </section>
     </div>
 

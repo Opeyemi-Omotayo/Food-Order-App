@@ -60,4 +60,26 @@ function showSlides() {
 //   console.log(window.pageXOffset)
 // }
 
+//cart
+const cartView = document.getElementById("cartView");
+const button = document.querySelector('.orderBtn');
+
+const addToCartHandler = () =>{
+  let placeholder = `<li class='cart-item'>
+  <div>
+    <h2>{name}</h2>
+    <div class='summary'>
+      <span class='price'>{price}</span>
+      <span class='classes.amount'>x {amount}</span>
+    </div>
+  </div>
+  <div class='actions'>
+    <button onClick={onRemove}>−</button>
+    <button onClick={onAdd}>+</button>
+  </div>
+</li>`
+}
+
+button.addEventListener("click", )
+
 /*https://www.chicken-republic.com/wp-content/plugins/wp-carousel-pro/public/css/bx_loader.gif */
