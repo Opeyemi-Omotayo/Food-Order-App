@@ -149,7 +149,6 @@
   margin: 0 0 8px 0;
 }
 
-
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
 nav ul {
@@ -206,7 +205,7 @@ nav ul {
   display: block;
   padding: 30px 15px;
   border: solid;
-  border-width:  3px 0 0 0;
+  border-width: 3px 0 0 0;
 }
 #mainav li li a {
   border-width: 0 0 1px 0;
@@ -270,8 +269,6 @@ nav ul {
   padding: 0;
   border: none;
 }
- 
-
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
@@ -306,6 +303,7 @@ a:focus {
   color: #ffffff;
   background-color: #f36506;
   border-color: #f36506;
+  cursor: pointer;
 }
 .btn:hover,
 .btn.inverse {
@@ -412,7 +410,7 @@ a:focus {
   transform: translate(-50%, -50%);
   width: 70%;
   background-color: white;
-  padding: 6rem;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -420,8 +418,8 @@ a:focus {
 
 .close-modal {
   position: absolute;
-  top: 1.2rem;
-  right: 2rem;
+  top: 0.2rem;
+  right: 1.2rem;
   font-size: 5rem;
   color: #333;
   cursor: pointer;
@@ -435,8 +433,8 @@ a:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  height: 500%;
+  background-color: rgba(34, 33, 33, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
 }
@@ -489,10 +487,10 @@ a:focus {
   height: 10px;
 }
 
-.addButton{
+.addButton {
   text-align: right;
 }
-.orderBtn{
+.orderBtn, .modalBtn {
   font: inherit;
   cursor: pointer;
   background-color: transparent;
@@ -500,16 +498,63 @@ a:focus {
   color: #f36506;
   border-radius: 5px;
   font-weight: bold;
-  padding: 0.08rem 0.40rem;
+  padding: 0.08rem 0.4rem;
 }
 
-.listProducts{
+.listProducts {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
 }
+
+.highlightText {
+  margin-left: 65px;
+  padding: 3px;
+  color: white;
+  height: 25px;
+  background-color: #fd7011;
+  font-size: medium;
+  transform: scale(1.09, 1.09) skewX(-16deg);
+}
+
+.badge {
+  background-color: white ;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.cart{
+  width: 3%;
+  position: relative;
+  top: 30px;
+  left: 90%;
+  cursor: pointer;
+}
+
+ .cart:after{
+  content: attr(data-count);
+  color: white;
+  position: absolute;
+  top: -11px;
+  width: 16px;
+  height: 16px;
+  background: #f06102;
+  border-radius: 50%;
+  opacity: 0;
+  right: -26px;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart.zero:after{
+  opacity: 1;
+} 
 /* Media Queries------------------------ */
 @-ms-viewport {
   width: device-width;

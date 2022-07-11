@@ -49,16 +49,10 @@
         <nav id="mainav" class="fl_right">
           <ul class="clear">
             <li class="active"><a href="index.html">Home</a></li>
-            <li>
-              <a class="drop" href="#">Promo</a>
-              <ul>
-                <li><a href="#">Promo 1</a></li>
-                <li><a href="#">Promo 2</a></li>
-                <li><a href="#">Promo 3</a></li>
-              </ul>
-            </li>
             <li><a href="#">Help</a></li>
-            <li><a href="#">About</a></li>
+            <li>
+              <h1><i class="cart fa fa-shopping-cart"></i></h1>
+            </li>
           </ul>
         </nav>
       </header>
@@ -83,20 +77,14 @@
           Min. order ₦800.00 || Min. delivery fee ₦300.00
         </p>
         <footer class="one_quarter" style="padding-top: 35px">
-          <a class="btn" href="#"><strong>Add To Cart</strong></a>
+          <a class="btn" href="#"><strong>Order Now</strong></a>
         </footer>
       </article>
     </div>
 
     <div class="space"></div>
 
-    <div
-      style="
-        background-color: white;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-        height: 55px;
-      "
-    >
+    <div style="background-color: white; height: 55px">
       <header id="header" class="hoc clear">
         <nav id="mainav">
           <ul class="clear">
@@ -112,10 +100,14 @@
               >
             </li>
             <li>
+              <a href="#" style="padding: 15px 15px">Rotisserie Chicken</a>
+            </li>
+            <li>
+              <a href="#" style="padding: 15px 15px">Burger</a>
+            </li>
+            <li>
               <a class="drop" href="#" style="padding: 15px 15px">More </a>
               <ul>
-                <li><a href="#">Rotisserie Chicken</a></li>
-                <li><a href="#">Burger</a></li>
                 <li><a href="#">Tasty sides</a></li>
                 <li><a href="#">Drinks</a></li>
               </ul>
@@ -124,15 +116,18 @@
         </nav>
       </header>
     </div>
+    <div class="space" style="height: 2px"></div>
+
+    <div
+      class="modal coloured"
+      style="display: none; margin-top: 500px; width: 650px"
+    ></div>
+    <div class="overlayy" style="display: none"></div>
 
     <div class="section row3" style="background-color: white; width: 100%">
-      <section
-        class="fl_left"
-        style="width: 70%; padding-left: 95px; padding-top: 20px"
-      >
+      <section style="width: 90%; padding-left: 95px; padding-top: 20px">
         <p><strong>.What's new.</strong></p>
         <ul class="nospace" id="list1"></ul>
-
         <ul class="nospace">
           <p><strong>.Everyday Affordable value meals.</strong></p>
           <li>
@@ -173,7 +168,7 @@
           </li>
         </ul>
       </section>
-      <section
+      <!-- <section
         class="fl_right"
         style="
           width: 25%;
@@ -186,22 +181,9 @@
           overflow: hidden;
           overflow-y: scroll;
         "
-      >
-        <h7 ><small>ORDER FROM</small></h7>
-        <h1
-          style="
-            margin-left: 15px;
-            padding-top: 3px;
-            color: white;
-            width: 90%;
-            height: 25px;
-            background-color: #fd7011;
-            font-size: medium;
-            transform: scale(1.07, 1.05) skewX(-16deg);
-          "
-        >
-          Chicken Republic - Lagos
-        </h1>
+      > 
+         <h7 ><small>ORDER FROM</small></h7>
+        <h1 class="highlightText"> Chicken Republic - Lagos</h1>
 
         <h7><small>ESTIMATED DELIVERY TIME : </small></h7>
         <h7><strong>20-30 mins</strong></h7>
@@ -212,8 +194,8 @@
           <div>
           <ul style="list-style: none;">
             <li class="listProducts">
-              <article class="fl_left" style="width: 20%;">
-              <img src= 'images/ice-cream.png' style="width: 45px;">
+              <article class="fl_left" style="width: 20%; height: 30px;">
+              <img src= 'images/ice-cream.png' style="width:50px;">
               <p><strong>${product.name}</strong></p>
               </article>  
               <div class="fl_right" style="width: 15%; text-align:center; margin-top:55px;">
@@ -222,12 +204,25 @@
                 <button onClick={onAdd} style="display: inline-block ;">+</button>
               </div>
             </li>
+          </ul> 
+          <ul style="list-style: none;">
+            <li>
+              <section class="fl_left">
+                <img src="images/ice-cream.png" alt="">
+                <p>ice cream</p>
+              </section>
+              <div class="fl_right ">
+                <p>price</p>
+                <button style="display: inline-block;" >+</button>
+                <button style="display: inline-block;">-</button>
+              </div>
+            </li>
           </ul>
         </div>
         <footer  style="text-align: center; ">
           <button class="btn">Proceed To Checkout</button>
         </footer>
-      </section>
+      </section> -->
     </div>
 
     <div class="">
@@ -292,7 +287,9 @@
       </footer>
     </div>
 
-    <script src="JS/script.js"></script>
+    <!-- <script src="JS/script.js"></script> -->
     <script src="JS/resultView.js"></script>
+    <script src="JS/modalProduct.js"></script>
+    <script src="JS/cartView.js"></script>
   </body>
 </html>

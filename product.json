@@ -4,302 +4,268 @@
         "image": "https://www.chicken-republic.com/wp-content/uploads/2022/04/EGG-STAR-WHITE-RICE.png",
         "name": "EGGSTAR MEAL WITH WHITE RICE",
         "description":"An Egg with delicious sauce served with White Rice.",
-        "price": "₦650"
+        "price": "650.00"
     },
     {
         "id" : 2,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2022/04/EGGSTAR-SPAGHETTI.png",
         "name": "EGGSTAR SPAGHETTI MEAL",
         "description":"An Egg with delicious sauce served with Spaghetti.",
-        "price": "₦650"
+        "price": "650.00"
     },
     {
         "id" : 3,
-        "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_RefuelSpaghettiMeal.jpg",
+        "image": "https://www.chicken-republic.com/wp-content/uploads/2.0021/09/ChickenRepublic_RefuelSpaghettiMeal.jpg",
         "name": "Refuel Spaghetti Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken served with Spaghetti and a FREE Pepper Sauce",
-        "price": "₦900"
+        "price": "900.00"
     },
     {
         "id" : 4,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/3-REFUEL-SPICY-RICE-MEAL.jpg",
         "name": "Refuel Spicy Rice Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken served with Spicy Rice.",
-        "price": "₦900"
+        "price": "900.00"
     },
     {
         "id" : 5,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_RefuelMaxSpaghettiMeal.jpg",
         "name": "Refuel Max Spaghetti Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken with Spaghetti plus Coleslaw or Moin Moin and a refreshing PET drink",
-        "price": "₦1,350"
+        "price": "1,350.00"
     },
     {
         "id" : 6,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/7-REFUEL-MAX-FRIED-RICE-MEAL.jpg",
         "name": "Refuel Max Fried Rice Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken with Fried Rice plus Coleslaw or Moin Moin and a refreshing PET drink",
-        "price": "₦1,350"
+        "price": "1,350.00"
     },
     {
         "id" : 7,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_RefuelMaxRiceBeansMeal.jpg",
         "name": "Refuel Max Rice & Beans Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken with Rice & Beans with Sauce plus Coleslaw or Moin Moin and a refreshing PET drink        ",
-        "price": "₦1,450"
+        "price": "1,450.00"
     },
     {
         "id" : 8,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_RefuelRiceBeansMeal.jpg",
         "name": "Refuel Rice & Beans Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken served with Rice & Beans plus our yummy Pepper Sauce.        ",
-        "price": "₦1,000"
+        "price": "1,000.00"
     },
     {
         "id" : 9,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/5-REFUEL-DODO-MEAL.jpg",
         "name": "Refuel Dodo Meal",
         "description":"One piece of Soulfully Spiced Fried Chicken served with your choice of Spaghetti, Fried / Spicy Rice or Rice & Beans with Sauce PLUS our tasty NEW Plantain Cubes        ",
-        "price": "₦1,200"
+        "price": "1,200.00"
     },
     {
         "id" : 10,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_RefuelDodoMaxMeal.jpg",
         "name": "Refuel Dodo Max Meal",
         "description":" One piece of Soulfully Spiced Fried Chicken served with your choice of Spaghetti, Fried / Spicy Rice or Rice & Beans with Sauce PLUS our tasty NEW Plantain Cubes and a refreshing PET drink ",
-        "price": "₦1,350"
+        "price": "1,350.00"
     },
     {
         "id" : 11,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/12/CITIZENS-WITH-CHIPS-CROPPED.png",
         "name": "Citizens Meal with Chips",
         "description":" Two mouth-watering pieces of Soulfully Spiced Fried Chicken served with Regular Chips plus a refreshing PET drink. ",
-        "price": "₦2,000"
+        "price": "2,000.00"
     },
     {
         "id" : 12,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_ExpressMealWithChips.jpg",
         "name": "Express Meal with Chips",
         "description":" One piece of Soulfully Spiced Fried Chicken with regular Chips plus a refreshing PET drink. ",
-        "price": "₦1,600"
+        "price": "1,600.00"
     },
     {
         "id" : 13,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_PotLoversNigeria.jpg",
         "name": "Pot Lovers Meal",
         "description":"Enjoy 8 pieces of Soulfully Spiced Fried Chicken with your choice of 4 x portions of Spaghetti, Fried Rice, Spicy Rice or Regular Chips plus 2 x portions of Moin Moin, Dodo or Coleslaw and 4 x PET drinks.  ",
-        "price": "₦7,500"
+        "price": "7,500.00"
     },
     {
         "id" : 14,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/10/MEGA-POT-LOVERS-DARK.jpg",
         "name": "MEGA Pot Lovers Meal        ",
         "description":" Enjoy 10 pieces of Soulfully Spiced Fried Chicken with your choice of 6 x portions of Spaghetti, Fried Rice, Spicy Rice or Regular Chips plus 4 x portions of Moin Moin, Dodo or Coleslaw and 6 x PET drinks.        ",
-        "price": "₦10,000"
+        "price": "10,000.00"
     },
     {
         "id" : 15,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/CHICKEN-PIECES-DARK.jpg",
         "name": "Soulfully Spiced Fried Chicken",
         "description":"Soulfully Spiced Fried Chicken - Available in Traditional or Crunchy  ",
-        "price": "₦700"
+        "price": "700.00"
     },
     {
         "id" : 16,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/CITIZENS-MEAL-DARK.jpg",
         "name": "Citizens Meal        ",
         "description":" Two mouth-watering pieces of Soulfully Spiced Fried Chicken served with your choice of Spaghetti, Fried or Spicy Rice or Rice & Beans with Sauce plus a refreshing PET drink.        ",
-        "price": "₦1,800"
+        "price": "1,800.00"
     },
     {
         "id" : 17,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_FullChicken.jpg",
         "name": "Full Rotisserie Chicken",
         "description":" Succulent & juicy Rotisserie Chicken flavoured to perfection with our authentic West African Herbs & Spices! ",
-        "price": "₦5,800"
+        "price": "5,800.00"
     },
     {
         "id" : 18,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_BigCrewMeal.jpg",
         "name": "New Big Crew Meal        ",
         "description":" Enjoy a succulent full Rotisserie Chicken served with 4 portions of Spaghetti, Fried or Spicy Rice PLUS 2 portions of Coleslaw, Moin-Moin or Dodo Cubes and 4 x PET drinks. ",
-        "price": "₦7,800"
+        "price": "7,800.00"
     },
     {
         "id" : 19,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_QuarterRotisserie.jpg",
         "name": "Quarter Rotisserie Chicken        ",
         "description":" Succulent & juicy Rotisserie Chicken flavoured to perfection with our authentic West African Herbs & Spices!        ",
-        "price": "₦1,500"
+        "price": "1,500.00"
     },
     {
         "id" : 20,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/QUARTER-ROTISSERIE-MEAL-DARK.jpg",
         "name": "Quarter Rotisserie Meal",
         "description":" Enjoy a succulent Quarter Rotisserie Chicken served with an option of Spaghetti, Fried or Spicy Rice or Rice & Beans with sauce PLUS a refreshing PET drink.        ",
-        "price": "₦1,950"
+        "price": "1,950.00"
     },
     {
         "id" : 21,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/10/7-HALF-ROTISSERIE-MEAL-DARK-e1636533944472.jpg",
         "name": "Half Rotisserie Meal",
         "description":" Enjoy a succulent Half Rotisserie Chicken served with an option of Spaghetti, Fried or Spicy Rice or Rice & Beans with sauce PLUS a refreshing PET drink. ",
-        "price": "₦3,300"
+        "price": "3,300.00"
     },
     {
         "id" : 22,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_HalfRotisserie.jpg",
         "name": "Half Rotisserie Chicken",
         "description":" Succulent & juicy Rotisserie Chicken flavoured to perfection with our authentic West African Herbs & Spices!        ",
-        "price": "₦3,000"
+        "price": "3,000.00"
     },
     {
         "id" : 23,
         "image": "",
         "name": "Chief Burger",
         "description":" Enjoy a Mighty Chief Burger made with Soulfully Spiced Fried Chicken, Lettuce, Cheese and our Secret Sauce on a Fresh Bun.        ",
-        "price": "₦1,500"
+        "price": "1,500.00"
     },
     {
         "id" : 24,
         "image": "",
         "name": "Chief Burger Meal",
         "description":" Enjoy a Mighty Chief Burger made with Soulfully Spiced Fried Chicken, Lettuce, Cheese and our Secret Sauce on a Fresh Bun served with Regular Chips and a refreshing PET drink. ",
-        "price": "₦2,400"
+        "price": "2,400.00"
     },
     {
         "id" : 25,
         "image": "",
         "name": "Big Boyz Meal",
         "description":" Enjoy a Chief Burger with one piece of Soulfully Spiced Fried Chicken, your choice of Spaghetti, Fried/Spicy Rice or Rice & Beans, plus a Coleslaw & a Monster Energy drink  ",
-        "price": "₦3,000"
+        "price": "3,000.00"
     },
     {
         "id" : 26,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_MeatPies.jpg",
         "name": "Meat Pie   ",
         "description":" Enjoy our hot, fresh and tasty pies with your choice of delicious Chicken or Beef filling ",
-        "price": "₦450"
+        "price": "450.00"
     },
     {
         "id" : 27,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/FRIED-RICE-DARK.jpg",
         "name": "Fried Rice    ",
         "description":" A single portion of Fried Rice - now with more veggies and other secret ingredients for a more delicious flavour        ",
-        "price": "₦500"
+        "price": "500.00"
     },
     {
         "id" : 28,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/SPAGHETTI-DARK.jpg",
         "name": "Spaghetti",
         "description":" A single portion of perfectly prepared Spaghetti enhanced with red peppers, herbs and spices. ",
-        "price": "₦500"
+        "price": "500.00"
     },
     {
         "id" : 29,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_JollofRiceICE.jpg",
         "name": "Spicy Rice   ",
         "description":" A single portion of our signature Spicy Rice prepared with our unique blend of authentic West African herbs and spices.        ",
-        "price": "₦600"
+        "price": "600.00"
     },
     {
         "id" : 30,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/RICE-BEANS_DARK.jpg",
         "name": "Rice & Beans with Sauce",
         "description":" A single portion of Rice & Beans cooked to perfection and served with our delicious Rice & Beans sauce.        ",
-        "price": "₦700"
+        "price": "700.00"
     },
     {
         "id" : 31,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_Chips.jpg",
         "name": "Regular Chips",
         "description":" A portion of chips ",
-        "price": "₦700"
+        "price": "700.00"
     },
     {
         "id" : 32,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_NewlyImprovedMoinMoin.jpg",
         "name": "Newly Improved Moin-Moin",
         "description":" A single portion of our delicious, newly improved Moin Moin now with more flavour and more nutrients.        ",
-        "price": "₦400"
+        "price": "400.00"
     },
     {
         "id" : 33,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/DODO-CHUNKS-DARK.jpg",
         "name": "NEW Dodo Cubes",
         "description":" A single portion of golden delicious Plantain cubes, fried to perfection. ",
-        "price": "₦350"
+        "price": "350.00"
     },
     {
         "id" : 34,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/09/ChickenRepublic_Coleslaw.jpg",
         "name": "Coleslaw ",
         "description":"A single portion of garden fresh Coleslaw prepared with our tasty Mayonnaise.  ",
-        "price": "₦350"
+        "price": "350.00"
     },
     {
         "id" : 35,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/04/ChickenRepublicBeverages.jpg",
         "name": "Coca Cola    ",
         "description":" 60CL  ",
-        "price": "₦300"
+        "price": "300.00"
     },
     {
         "id" : 36,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/04/ChickenRepublicBeverages.jpg",
         "name": "Fanta Orange        ",
         "description":" 60CL ",
-        "price": "₦300"
+        "price": "300.00"
     },
     {
         "id" : 37,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/04/ChickenRepublicBeverages.jpg",
         "name": "Sprite",
         "description":" 60CL ",
-        "price": "₦300"
+        "price": "300.00"
     },
     {
         "id" : 38,
         "image": "https://www.chicken-republic.com/wp-content/uploads/2021/04/ChickenRepublicBeverages.jpg",
         "name": "Mineral Water",
         "description":" 60CL ",
-        "price": "₦250"
-    },
-    {
-        "id" : 39,
-        "image": " ",
-        "name": " ",
-        "description":"  ",
-        "price": "₦1,000"
-    },
-    {
-        "id" : 40,
-        "image": "",
-        "name": "",
-        "description":"  ",
-        "price": "₦1,000"
-    },
-    {
-        "id" : 8,
-        "image": "",
-        "name": "",
-        "description":"  ",
-        "price": "₦1,000"
-    },
-    {
-        "id" : 8,
-        "image": "",
-        "name": "",
-        "description":"  ",
-        "price": "₦1,000"
-    },
-    {
-        "id" : 8,
-        "image": "",
-        "name": "",
-        "description":"  ",
-        "price": "₦1,000"
+        "price": "300.00"
     }
+    
 
 
 ]

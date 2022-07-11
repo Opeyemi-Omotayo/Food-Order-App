@@ -19,7 +19,7 @@
 // btnOpenModal.addEventListener("click", openModal);
 // btnCreateAccountModal.addEventListener("click", () => {
 //   closeModal;
-//   accountModal.classList.remove("hide");
+//   accountModal.classList.remove("hide");   
 //   accountOverlay.classList.remove("hide");
 // });
 
@@ -63,7 +63,7 @@ function showSlides() {
 //cart
 const cartView = document.getElementById("cartView");
 const button = document.querySelector('.orderBtn');
-
+ 
 const addToCartHandler = () =>{
   let placeholder = `<li class='cart-item'>
   <div>
