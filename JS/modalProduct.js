@@ -63,7 +63,7 @@ const displayData = (id) => {
            <p class="modalText fl_right">₦300.00</p>
          </div>
          <button class="modalBtn" onClick="onRemove(${product.price})" style="display: inline-block;">−</button>
-         <span class="modalText" id="counterNum">${this.counter ? 0: counter}</span>
+         <span class="modalText" id="counterNum">${this.counter = counter}</span>
           <button class="modalBtn" onClick="onAdd(${product.price})" style="display: inline-block ;">+</button>
          <button class=" btn fl_right" onclick="addToCart(${product.id})"style="width: 15rem;">ADD TO CART ₦<span id="showPrice"></span></button>
        </section>`;
@@ -109,8 +109,9 @@ const addToCart = (id) => {
         <p>${this.counter = counter} Qty</p>
         </div> 
       </li>
-      <button class="btn fl_right" onclick="sendCart()">Checkout</button>
+      <button class="btn fl_right" onclick="sendCart('${product.name}')">Checkout</button>
       `;
+
         };
         
       }
@@ -118,25 +119,26 @@ const addToCart = (id) => {
   });
 };
    
-const sendCart =() =>{
+const sendCart =(productName) =>{
   fetch("https://foodworld-9475e-default-rtdb.firebaseio.com/orders.json", {
     method: "POST",
     body: JSON.stringify({
-      name: 'product',
-      quantity: '2'
+      name: productName,
+      quantity: counter
     }),
     headers: {
       "Content-Type": "application/json",
     },
   })
-    .then((res) => {
+    .then(async (res) => {
+      
       if (res.ok) {
+        alert("success!");
         return res.json();
       } else {
-        return res.json().then((data) => {
-          let errorMessage = "Failed to submit order!";
-          throw new Error(errorMessage);
-        });
+        const data = await res.json();
+        let errorMessage = "Failed to submit order!";
+        throw new Error(errorMessage);
       }
     })
     .catch((err) => {
