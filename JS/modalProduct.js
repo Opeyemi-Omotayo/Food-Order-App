@@ -11,14 +11,14 @@ const closeModal = (id) => {
 
 const onAdd =(price) =>{
    updatedPrice += price ;
-   counter ++;
+   counter++;
    document.getElementById("showPrice").innerHTML = updatedPrice;
    document.getElementById("counterNum").innerHTML = counter;
 };
 
 const onRemove = (price) => {
   updatedPrice -= price ;
-  counter --;
+  counter--;
    document.getElementById("showPrice").innerHTML = updatedPrice;
    document.getElementById("counterNum").innerHTML = counter;
 }
@@ -29,7 +29,7 @@ const displayData = (id) => {
   data.then((products) => {
     for (let product of products) {
       if (id === product.id) {
-        
+         
         modal.style.display = "block";
         overlay.style.display = "block";
         console.log(product.name);
@@ -119,7 +119,7 @@ const addToCart = (id) => {
   });
 };
    
-const sendCart =(productName) =>{
+const sendCart = (productName) =>{
   fetch("https://foodworld-9475e-default-rtdb.firebaseio.com/orders.json", {
     method: "POST",
     body: JSON.stringify({
