@@ -174,16 +174,16 @@ nav ul {
   position: relative;
   margin-top: -1px;
 }
-#mainav ul {
+#mainav ul, #mainavv ul {
   text-transform: uppercase;
 }
-#mainav ul ul {
+#mainav ul ul, #mainavv ul ul {
   position: absolute;
   width: 180px;
   text-transform: none;
   z-index: 9999;
 }
-#mainav ul ul ul {
+#mainav ul ul ul, #mainavv ul ul ul {
   left: 180px;
   top: 0;
 }
@@ -194,14 +194,23 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-#mainav li:last-child {
+
+#mainavv li{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+#mainav li:last-child, #mainavv li:last-child {
   margin-right: 0;
 }
-#mainav li li {
+#mainav li li, #mainavv li li {
   width: 100%;
   margin: 0;
 }
-#mainav li a {
+#mainav li a, #mainavv li a {
   display: block;
   padding: 30px 15px;
   border: solid;
@@ -231,7 +240,7 @@ nav ul {
   top: 15px;
   left: 5px;
 }
-#mainav .active a {
+#mainav .active a, #mainavv .active a {
   font-weight: 700;
 }
 #mainav li li a,
@@ -346,8 +355,10 @@ a:focus {
   color: inherit;
   background-color: rgba(0, 0, 0, 0.03);
   border-color: transparent;
+  transition: 1s;
 }
 #services article:hover {
+  transform: scale(1.026);
   color: #ffffff;
   background-color: #f36506;
   border-color: #ffffff;
@@ -362,13 +373,13 @@ a:focus {
   border-color: #f36506;
 }
 /* Navigation */
-#mainav li a {
+#mainav li a , #mainavv li a{
   color: black;
   border-color: transparent;
 }
 #mainav .active a,
 #mainav a:hover,
-#mainav li:hover > a {
+#mainav li:hover > a,#mainavv .active a , #mainavv a:hover{
   color: #f36506;
   background-color: inherit;
   border-color: #f36506;
@@ -451,14 +462,11 @@ a:focus {
 }
 .centerP {
   color: black;
-  transform: translate(20%, 5%);
-  margin-top: 10px;
-  display: inline-block;
-  margin-left: 65px;
 }
 
 .modalText {
   color: black;
+  padding: 10px;
 }
 
 .border-top {

@@ -1,12 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Burger King || FoodWorld</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link href="../CSS/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <script
+      src="https://kit.fontawesome.com/5e8a5a79b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="top">
+    <div
+      class="wrapper row1"
+      style="
+        position: fixed;
+        box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+        height: 70px;
+      "
+    >
+      <header id="header" class="hoc clear">
+        <div id="logo" class="fl_left">
+          <h1>
+            <a href="index.html"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="orange"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-target"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+              <span>FoodWorld</span></a
+            >
+          </h1>
+        </div>
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Help</a></li>
+            <li>
+              <h1><i class="cart fa fa-shopping-cart"></i></h1>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div
+      class="bgded"
+      style="
+        background-image: url('https://d2lev5xroqke9e.cloudfront.net/ng/view/08591b941e?width=1000&height=350');
+        width: 1560px;
+        height: 350px;
+      "
+    ></div>
+
+    <div class="coloured" style="background-color: rgb(253, 252, 252)">
+      <article class="clear pad">
+        <p class="three_quarter" style="padding-top: 20px">
+          <a href="index.html">Home</a> > Burger King
+        </p>
+        <p class="three_quarter"><strong>Burger King - Lagos</strong></p>
+        <p class="three_quarter">
+          Min. order ₦1000.00 || Min. delivery fee ₦500.00
+        </p>
+        <footer class="one_quarter" style="padding-top: 35px">
+          <a class="btn" href="#"><strong>Order Now</strong></a>
+        </footer>
+      </article>
+    </div>
+    <div class="space" style="height: 3px"></div>
+
+    <div
+      class="modal coloured"
+      id="cartModal"
+      style="display: none; margin-top: 500px; width: 650px;"
+    ></div>
+    <div class="overlayy" style="display: none"></div>
+
+    <div style="background-color: white; height: 55px">
+      <header id="header" class="hoc clear">
+        <nav id="mainavv">
+          <ul class="clear">
+            <li><a href="#list1" style="padding: 15px 15px">Burger-Flamed Chicken</a></li>
+            <li>
+              <a href="#" style="padding: 15px 15px"
+                >Burger-Chicken</a
+              >
+            </li>
+            <li>
+              <a href="#list2" style="padding: 15px 15px">Meals-Flamed Grilled Beef</a>
+            </li>
+            <li>
+              <a href="#list3" style="padding: 15px 15px">Meals-Chicken</a>
+            </li>
+                <li><a href="#list4" style="padding: 15px 15px">Desserts</a></li>
+                <li><a href="#list5" style="padding: 15px 15px">Drinks</a></li>
+              
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="space" style="height: 2px"></div>
+
+    <div
+      class="modal coloured"
+      style="display: none; margin-top: 500px; width: 650px"
+    ></div>
+    <div class="overlayy" style="display: none"></div>
+
+    <div class="section row3" style="background-color: white; width: 100%">
+      <section style="width: 90%; padding-left: 95px; padding-top: 20px">
+        <p><strong>.Burger-Flamed Chicken</strong></p>
+        <ul class="nospace" id="list1"></ul>
+          <p><strong>.Burger-Chicken</strong></p>
+          <ul class="nospace" id="list2"></ul>
+          <p><strong>.Meals-Flamed Grilled Beef</strong></p>
+          <ul class="nospace" id="list3"></ul>
+          <p><strong>.Meals-Chicken</strong></p>
+          <ul class="nospace" id="list4"></ul>
+          <p><strong>.Desserts</strong></p>
+          <ul class="nospace" id="list5"></ul>
+        </ul>
+      </section>
+    </div>
+
+    <div class="">
+      <footer id="footer" class="footerr clear">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <h6><a class="footer__link" href="#">Foodcity</a></h6>
+            <p class="footerP">About</p>
+            <p class="footerP">Pricing</p>
+            <p class="footerP">Delivery</p>
+            <p class="footerP">Terms of Use</p>
+          </li>
+          <li class="footer__item">
+            <h6><a class="footer__link" href="#">Popular Vendors</a></h6>
+            <p class="footerP">Chicken Republic</p>
+            <p class="footerP">Pizza Hut</p>
+            <p class="footerP">ColdStone</p>
+            <p class="footerP">Tantalizer</p>
+          </li>
+          <li class="footer__item">
+            <h6><a class="footer__link" href="#">City</a></h6>
+            <p class="footerP">Lagos</p>
+            <p class="footerP">Ibadan</p>
+            <p class="footerP">Abuja</p>
+            <p class="footerP">Akure</p>
+          </li>
+          <li class="footer__item">
+            <h6><a class="footer__link" href="#">Contact Us</a></h6>
+            <p class="footerP">Email</p>
+            <p class="footerP">Whatsapp</p>
+          </li>
+          <div class="form-div">
+            <h6 class="heading footerP">Signup to our newsletter today!</h6>
+            <form action="#" method="post">
+              <select class="footerForm-spacing">
+                <option value="Select your city">Select your city</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Ibadan">Ibadan</option>
+                <option value="Abuja">Abuja</option>
+                <option value="Akure">Akure</option>
+              </select>
+              <input
+                class="footerForm-spacing"
+                type="text"
+                placeholder="Email"
+              />
+              <button class="footerBtn" type="submit" value="submit">
+                Submit
+              </button>
+            </form>
+          </div>
+        </ul>
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link"
+            target="_blank"
+            href="https://www.linkedin.com/in/opeyemi-omotayo-a67255224/"
+            >Opeyemi Omotayo</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <!-- <script src="JS/script.js"></script> -->
+    <script src="../JS/burgerKingView.js"></script>
+    <script src="../JS/modalProduct.js"></script>
+  </body>
 </html>

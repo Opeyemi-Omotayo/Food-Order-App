@@ -14,7 +14,12 @@
     ></script>
   </head>
   <body id="top"> 
-    <div class="wrapper row1 headerr">
+    <div class="wrapper row1"
+    style="
+      position: fixed;
+      box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+      height: 70px;
+    " >
       <header id="header" class="hoc clear">
         <div id="logo" class="fl_left">
           <h1>
@@ -59,46 +64,75 @@
 
     <div
       id="img"
-      class="wrapper mySlide bgded overlay"
+      class=" mySlide bgded "
       style="background-image: url('images/backgroundFood.jpeg')"
     >
       <div id="pageintro" class="hoc clear">
         <article>
           <h3 class="heading">Everything you need is here!</h3>
           <footer>
-            <a class="btn" href="#"><strong>SignUp/Login</strong></a>
+            <a class="btn" href="#" onclick="modalLogin()"><strong>SignUp/Login</strong></a>
           </footer>
         </article>
       </div>
     </div>
     <div
     id="img"
-    class="wrapper mySlide bgded overlay"
+    class="mySlide bgded "
     style="background-image: url('images/slider-3.jpeg')"
   >
     <div id="pageintro" class="hoc clear">
       <article>
         <h3 class="heading">Everything you need is here!</h3>
         <footer>
-          <a class="btn" href="#"><strong>SignUp/Login</strong></a>
+          <a class="btn" href="#" onclick="modalLogin()"><strong>SignUp/Login</strong></a>
         </footer>
       </article>
     </div>
   </div>
   <div
   id="img"
-  class="wrapper mySlide bgded overlay"
+  class=" mySlide bgded "
   style="background-image: url('images/slider-4.jpeg')"
 >
   <div id="pageintro" class="hoc clear">
     <article>
       <h3 class="heading">Everything you need is here!</h3>
       <footer>
-        <a class="btn" href="#"><strong>SignUp/Login</strong></a>
+        <a class="btn" href="#" onclick="modalLogin()"><strong>SignUp/Login</strong></a>
       </footer>
     </article>
   </div>
 </div>
+
+<div class="modal" style="width: 45%; height: 300px; display: none;">
+  <button class="close-modal" onclick="closeModal()">&times;</button>
+      <form action="" class="formContainer" >
+        <div class="modalText" >
+          <label><i class="fa-thin fa-circle-user"></i>Username</label>
+          <input class="login" type="text" placeholder="Enter your username" />
+        </div>
+        <div class="modalText " >
+          <label>Password</label>
+          <input
+            class="login"
+            type="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <button type="submit" class="btn centerBtn">Log in</button>
+
+        <div style="padding: 20px; text-align: center; width: 70%;">
+          <span class="centerP fl_left" >
+            <a href="#">Forgot Password?</a>
+          </span>
+          <span class="centerP fl_right">
+            <a class="create" onclick="modalSignup()" style="cursor: pointer;">Create an account</a>
+          </spanp>
+        </div>
+      </form>
+</div>
+<div class="overlayy" style="display: none;"></div>
 
 
     <div class="section" style="background-color: white">
@@ -112,13 +146,13 @@
       />
     </div>
 
-    <div class="wrapper section row3">
+    <div class=" section row3">
       <section id="services" class="hoc container clear">
         <div class="sectiontitle">
           <h6 class="heading">Choose a service</h6>
         </div>
         <ul class="nospace group grid-3">
-          <li class="one_third"> <a href="chickenRepublic.html">
+          <li class="one_third" onclick="showProducts(1);"> <a href="chickenRepublic.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-top">
               <img src="images/chicken-republic.png" alt="" />
               <h6 class="heading">Chicken Republic</h6>
@@ -127,10 +161,9 @@
                 velit.
               </p>
             </article>
-          </a>
-            
+          </a> 
           </li>
-          <li class="one_third">
+          <li class="one_third" onclick="showProducts(2)"><a href="burgerKing.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-top">
               <img src="images/burger-king.png" alt="" />
               <h6 class="heading">Burger King</h6>
@@ -139,8 +172,9 @@
                 dignissimos?
               </p>
             </article>
+            </a>
           </li>
-          <li class="one_third">
+          <li class="one_third" onclick="showProducts(3)"><a href="coldStone.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-top">
               <img src="images/ice-cream.png" alt="" />
               <h6 class="heading">ColdStone</h6>
@@ -149,28 +183,31 @@
                 voluptas?
               </p>
             </article>
+            </a>
           </li>
-          <li class="one_third">
+          <li class="one_third" onclick="showProducts(4)"><a href="thePlace.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-bottom">
               <img src="images/mr-biggs.png" alt="" />
-              <h6 class="heading">Mr Biggs</h6>
+              <h6 class="heading">The Place</h6>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Beatae, exercitationem.
               </p>
             </article>
+            </a>
           </li>
-          <li class="one_third">
+          <li class="one_third" onclick="showProducts(5)"><a href="pizzaHut.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-bottom">
               <img src="images/pizza.png" alt="" />
-              <h6 class="heading">Domino Pizza</h6>
+              <h6 class="heading">Pizza Hut</h6>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
                 enim.
               </p>
             </article>
+            </a>
           </li>
-          <li class="one_third">
+          <li class="one_third" onclick="showProducts(6)"><a href="tantalizer.html" id="firstone" style="color: rgb(41, 41, 41);">
             <article class="border-bottom">
               <img src="images/tantalizer.png" alt="" />
               <h6 class="heading">Tantalizer</h6>
@@ -179,12 +216,13 @@
                 Distinctio, quas.
               </p>
             </article>
+            </a>
           </li>
         </ul>
       </section>
     </div>
 
-    <div class="wrapper section row2">
+    <div class=" section row2">
       <section class="hoc container clear">
         <div class="sectiontitle">
           <h6 class="heading">How it works</h6>
@@ -297,5 +335,6 @@
     </div>
 
     <script src="../JS/script.js"></script>
+    <script src="../JS/allView.js"></script>
   </body>
 </html>

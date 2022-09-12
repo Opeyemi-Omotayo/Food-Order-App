@@ -1,4 +1,4 @@
-let  url = 'https://foodworld-9475e-default-rtdb.firebaseio.com/chickenRepublic/products';
+let  url = 'https://foodworld-9475e-default-rtdb.firebaseio.com/burgerKing/products';
 
 try {
   const data = fetch(`${url}/product1.json`).then((response) => response.json());
